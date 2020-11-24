@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "TerminessTTF Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "SauceCodePro Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -178,12 +178,12 @@ static uint forcemousemod = ShiftMask;
 ResourcePref resources[] = {
 		{ "font",         STRING,  &font },
 		{ "color0",       STRING,  &colorname[0] },
-		{ "color9",       STRING,  &colorname[1] },
-		{ "color10",       STRING,  &colorname[2] },
-		{ "color11",       STRING,  &colorname[3] },
-		{ "color12",       STRING,  &colorname[4] },
-		{ "color13",       STRING,  &colorname[5] },
-		{ "color14",       STRING,  &colorname[6] },
+		{ "color1",       STRING,  &colorname[1] },
+		{ "color2",       STRING,  &colorname[2] },
+		{ "color3",       STRING,  &colorname[3] },
+		{ "color4",       STRING,  &colorname[4] },
+		{ "color5",       STRING,  &colorname[5] },
+		{ "color6",       STRING,  &colorname[6] },
 		{ "color7",       STRING,  &colorname[7] },
 		{ "color8",       STRING,  &colorname[8] },
 		{ "color9",       STRING,  &colorname[9] },
